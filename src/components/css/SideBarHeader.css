@@ -2,6 +2,15 @@
   display: flex  !important;
   align-items: center !important;
   border-bottom: 1px solid lightgray;
+  
+  justify-content: space-evenly;
+}
+
+.sideBarHeader_buttonContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    
 
 }
 
@@ -22,3 +31,5 @@
     position: relative;
     top: 8px;
 }
+
+/* https://www.w3schools.com/css/css_grid_container.asp */

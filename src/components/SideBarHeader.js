@@ -22,7 +22,17 @@ export default function SideBarHeader({Icon,text}) {
       </Accordion.Toggle>
     </Card.Header>
     <Accordion.Collapse eventKey="0">
-      <Card.Body>Hello! I'm the body</Card.Body>
+      <Card.Body>
+      <div className="sideBarHeader_buttonContainer">
+      <button type="button" class="btn btn-outline-primary">Primary</button>
+      <button type="button" class="btn btn-outline-primary">Primary</button>
+      <button type="button" class="btn btn-outline-primary">Primary</button>
+      <button type="button" class="btn btn-outline-primary">Primary</button>
+
+      </div>
+
+      
+      </Card.Body>
     </Accordion.Collapse>
   </Card>
   <Card>

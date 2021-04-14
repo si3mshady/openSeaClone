@@ -18,6 +18,7 @@
   min-width: 300px !important;
   padding: 0 !important;
   background: white !important;
+  border-bottom: 0px !important;
 }
 
 .card-header > button {
@@ -32,6 +33,6 @@
 
 .btn-link {
     font-weight: 400 ;
-    color: grey !important;
+    color: black !important;
     text-decoration: none !important;
 }
