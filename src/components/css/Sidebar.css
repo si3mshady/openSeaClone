@@ -1,11 +1,15 @@
 .sidebar {
   display: flex;
   flex-direction: column;
+  position: relative;
+  /* overflow: hidden; */
+ 
   flex: 0.3;
   width: 40px;
+  min-width: fit-content;
+
   /* background-color: whitesmoke; */
   height: 100vh;
-  overflow-y: auto;
 }
 
 .sidebar_header {
@@ -17,18 +21,25 @@
 .card {
   border: 0 !important;
   border-right: 1px solid lightgrey !important;
+ 
 }
 .card-header {
   min-width: 300px !important;
   /* padding: 0 !important; */
   background: white !important;
   border-bottom: 0.3px !important;
+
+}
+
+.card-body {
+  background-color: #FBFDFF !important;
 }
 
 .card-header > button {
   outline: none !important;
   border: none !important;
   visibility: none;
+ 
 }
 .btn:focus {
   outline: none !important;

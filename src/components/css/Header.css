@@ -1,9 +1,14 @@
 .header {
+  position: sticky;
+  top: 0px;
+  z-index: 119 !important;
+  background-color: white;
   display: flex;
   margin: auto;
   align-items: center;
   margin: 12px;
-
+  height: 100%;
+  width: 100%px;
   /* margin-top: 10px; */
   justify-content: space-evenly;
   border-bottom: 1px solid rgb(229, 232, 235);

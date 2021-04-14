@@ -1,0 +1,7 @@
+
+.sideBarIcons > .MuiSvgIcon-root { margin: 10px 0 10px 0; }
+
+.sideBarIcons {
+    overflow: scroll !important;
+
+}

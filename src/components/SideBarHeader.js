@@ -37,9 +37,7 @@ export default function SideBarHeader({Icon,text,top, middle, bottom}) {
 
       {middle  &&  
      <div className="sideBarHeader_middleContainer">
-     <input  placeholder="filter" type='text' />  
-     <SideBarIcons />
-     <SideBarIcons />
+     <SideBarIcons className="sideBarHeader_middleContainer_icon" />
      <SideBarIcons />
      <SideBarIcons />
      <SideBarIcons />
