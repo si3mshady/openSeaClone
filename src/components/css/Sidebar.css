@@ -1,0 +1,15 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.3;
+  width: 40px;
+  /* background-color: whitesmoke; */
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.sidebar_header {
+    margin-left: 15px;
+    display: flex;
+}
+

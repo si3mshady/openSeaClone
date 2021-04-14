@@ -1,14 +1,22 @@
 a {
   outline: none;
   padding-bottom: 34px;
-  color: lightgray;
+  color: gray;
   text-decoration: none !important;
 }
 
-a:hover
- {
+a:hover  {
   cursor: pointer;
-
+  color: #0fc1ce;
   border-bottom: 5px solid #0fc1ce;
 }
 
+.headerOption__avatar {
+  /* padding-bottom: 34px; */
+}
+
+.headerOption__avatar:hover {
+  color: #0fc1ce;
+  cursor: pointer;
+  /* border-bottom: 5px solid #0fc1ce; */
+}

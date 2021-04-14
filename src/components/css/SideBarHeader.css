@@ -1,0 +1,11 @@
+.sideBarHeader {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  
+}
+
+.sideBarHeader > p {
+    font-size: 16px;
+  margin-left: 15px;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import './css/Header.css'
 import DirectionsBoatIcon from '@material-ui/icons/DirectionsBoat';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import SearchIcon from '@material-ui/icons/Search';
 import HeaderOption from './HeaderOption'
 
@@ -9,12 +10,13 @@ export default function Header() {
     return (
         <div className="header">
             <div className="header__logo">
-                 <DirectionsBoatIcon/>
-            </div>
+                 <DirectionsBoatIcon/>             
 
-                <div className="header__text">
+            </div>
+            <div className="header__text">
                         <p>si3mShadyNFT</p>
                 </div>
+              
             <div className="header__input">
                 <div>
                 <SearchIcon className="header__input__icon"/>
@@ -28,7 +30,7 @@ export default function Header() {
             <HeaderOption linkName="Blog" />
             <HeaderOption linkName="Community" />
             <HeaderOption linkName="Create" />
-            <HeaderOption avatar linkName="Create" />
+            <HeaderOption Avatar={AccountCircleIcon}  />
           
         
             
