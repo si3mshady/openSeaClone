@@ -1,35 +1,30 @@
 .sideBarHeader {
-  display: flex  !important;
+  display: flex !important;
   align-items: center !important;
   border-bottom: 1px solid lightgray;
-  
+
   justify-content: space-evenly;
 }
 
 .sideBarHeader_buttonContainer {
-    display: grid;
-    grid-template-columns: auto auto;
-    
-    
-
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
 }
 
 .MuiSvgIcon-root {
-    display: flex;
-    align-items: center !important;
+  display: flex;
+  align-items: center !important;
 }
 
 .sideBarHeader > p {
-    font-size: 16px;
+  font-size: 16px;
   margin-left: 15px;
-  
-
 }
 
 .sideBarHeader__text {
-
-    position: relative;
-    top: 8px;
+  position: relative;
+  top: 8px;
 }
 
 /* https://www.w3schools.com/css/css_grid_container.asp */
