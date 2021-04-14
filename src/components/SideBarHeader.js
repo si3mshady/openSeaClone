@@ -3,7 +3,7 @@ import './css/SideBarHeader.css'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import Accordion from 'react-bootstrap/Accordion'
-
+import SideBarIcons from './SideBarIcons'
 export default function SideBarHeader({Icon,text,top, middle, bottom}) {
 
     const [open, setOpen] = useState(false);
@@ -38,9 +38,14 @@ export default function SideBarHeader({Icon,text,top, middle, bottom}) {
       {middle  &&  
      <div className="sideBarHeader_middleContainer">
      <input  placeholder="filter" type='text' />  
+     <SideBarIcons />
+     <SideBarIcons />
+     <SideBarIcons />
+     <SideBarIcons />
+     <SideBarIcons />
+     {/* <div   className="sideBarHeader_buttonContainer">Username</div>
      <div   className="sideBarHeader_buttonContainer">Username</div>
-     <div   className="sideBarHeader_buttonContainer">Username</div>
-     <div  className="sideBarHeader_buttonContainer">Username</div>
+     <div  className="sideBarHeader_buttonContainer">Username</div> */}
 
      </div>
      

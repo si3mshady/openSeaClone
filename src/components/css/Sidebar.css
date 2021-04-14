@@ -14,11 +14,15 @@
   display: flex;
 }
 
+.card {
+  border: 0 !important;
+  border-right: 1px solid lightgrey !important;
+}
 .card-header {
   min-width: 300px !important;
-  padding: 0 !important;
+  /* padding: 0 !important; */
   background: white !important;
-  border-bottom: 0px !important;
+  border-bottom: 0.3px !important;
 }
 
 .card-header > button {
@@ -32,7 +36,7 @@
 }
 
 .btn-link {
-    font-weight: 400 ;
-    color: black !important;
-    text-decoration: none !important;
+  font-weight: 400;
+  color: black !important;
+  text-decoration: none !important;
 }
