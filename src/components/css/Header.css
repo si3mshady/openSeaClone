@@ -4,7 +4,10 @@
     margin: auto;
     align-items: center;
     margin-top: 10px;
-    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgb(229, 232, 235);
+ 
+    
 
 }
 
@@ -30,7 +33,9 @@
 }
 
 .header__input > input {
-    margin-left: 8px;
+    margin-left: 12px;
+    padding-left: 46px;
+    outline: none;
     /* background-color: lightgray; */
     
     /* margin-right: 8px; */
@@ -43,15 +48,15 @@
     max-width: 309px;
     flex: 1;
     border: 1px solid grey;
-
-
     
 }
 
-.header__input > input::placeholder {
-    color: lightgray;
-    text-align: center;
-  }
+
+.header__input > input[type="text"] {
+    box-sizing: border-box;
+    padding-left: 35px;
+}
+
 
 
 .header__input   {
@@ -75,3 +80,4 @@
     left: 10px; */
 
 }
+

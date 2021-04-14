@@ -1,0 +1,14 @@
+a {
+  outline: none;
+  padding-bottom: 34px;
+  color: lightgray;
+  text-decoration: none !important;
+}
+
+a:hover
+ {
+  cursor: pointer;
+
+  border-bottom: 5px solid #0fc1ce;
+}
+
