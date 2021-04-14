@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import Accordion from 'react-bootstrap/Accordion'
 
-export default function SideBarHeader({Icon,text}) {
+export default function SideBarHeader({Icon,text,top, middle, bottom}) {
 
     const [open, setOpen] = useState(false);
     return (
@@ -23,13 +23,30 @@ export default function SideBarHeader({Icon,text}) {
     </Card.Header>
     <Accordion.Collapse eventKey="0">
       <Card.Body>
+      {top &&  
+     
       <div className="sideBarHeader_buttonContainer">
-      <button type="button" class="btn btn-outline-primary">Primary</button>
-      <button type="button" class="btn btn-outline-primary">Primary</button>
-      <button type="button" class="btn btn-outline-primary">Primary</button>
-      <button type="button" class="btn btn-outline-primary">Primary</button>
+      <button type="button" class="btn btn-outline-primary">Buy Now</button>
+      <button type="button" class="btn btn-outline-info">On Auction</button>
+      <button type="button" class="btn btn-outline-success">New</button>
+      <button type="button" class="btn btn-outline-warning">Has Offers</button>
 
       </div>
+      
+      }
+
+      {middle  &&  
+     <div className="sideBarHeader_middleContainer">
+     <input  placeholder="filter" type='text' />  
+     <div   className="sideBarHeader_buttonContainer">Username</div>
+     <div   className="sideBarHeader_buttonContainer">Username</div>
+     <div  className="sideBarHeader_buttonContainer">Username</div>
+
+     </div>
+     
+     }
+     
+
 
       
       </Card.Body>

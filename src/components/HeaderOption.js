@@ -5,8 +5,8 @@ export default function HeaderOption({linkName, Avatar}) {
         
         <div className="headerOption">
         {linkName ? 
-            <a className='headerOption_link' href="#">{linkName}</a> :
-            <Avatar/>
+            <a className='headerOption__link' href="#">{linkName}</a> :
+            <Avatar className='headerOption__avatar'/>
         
         }
        

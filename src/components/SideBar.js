@@ -9,11 +9,11 @@ export default function SideBar() {
         <div className="sidebar">        
         
        <div className="sidebar_header">
-            <SideBarHeader Icon={StarIcon} text="Status" />
+            <SideBarHeader Icon={StarIcon} top text="Status" />
        </div>
 
        <div className="sidebar_header">
-            <SideBarHeader Icon={ViewComfyIcon} text="Collections" />
+            <SideBarHeader Icon={ViewComfyIcon}  middle text="Collections" />
        </div>
 
        <div className="sidebar_header">

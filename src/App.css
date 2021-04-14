@@ -4,5 +4,6 @@
 
 .App_body {
     display: flex;
+    align-items: center;
     
 }

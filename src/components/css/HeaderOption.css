@@ -15,6 +15,10 @@ a:hover  {
   /* padding-bottom: 34px; */
 }
 
+.headerOption__link {
+  padding-bottom: 20px !important;
+}
+
 .headerOption__avatar:hover {
   color: #0fc1ce;
   cursor: pointer;
