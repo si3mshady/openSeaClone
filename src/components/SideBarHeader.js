@@ -13,7 +13,7 @@ export default function SideBarHeader({Icon,text}) {
        
         {/* <Icon className="sideBarHeader__icon"/>
         <p className="sideBarHeader__text">{text}</p> */}
-        <Accordion defaultActiveKey="0">
+        <Accordion >
   <Card>
     <Card.Header>
       <Accordion.Toggle className="sideBarHeader" as={Button} variant="link" eventKey="0">

@@ -9,7 +9,29 @@
 }
 
 .sidebar_header {
-    margin-left: 15px;
-    display: flex;
+  min-width: 339px !important;
+  /* margin-left: 15px; */
+  display: flex;
 }
 
+.card-header {
+  min-width: 300px !important;
+  padding: 0 !important;
+  background: white !important;
+}
+
+.card-header > button {
+  outline: none !important;
+  border: none !important;
+  visibility: none;
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-link {
+    font-weight: 400 ;
+    color: grey !important;
+    text-decoration: none !important;
+}

@@ -1,11 +1,24 @@
 .sideBarHeader {
-  display: flex;
-  align-items: center;
+  display: flex  !important;
+  align-items: center !important;
   border-bottom: 1px solid lightgray;
-  
+
+}
+
+.MuiSvgIcon-root {
+    display: flex;
+    align-items: center !important;
 }
 
 .sideBarHeader > p {
     font-size: 16px;
   margin-left: 15px;
+  
+
+}
+
+.sideBarHeader__text {
+
+    position: relative;
+    top: 8px;
 }
