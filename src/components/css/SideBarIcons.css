@@ -3,5 +3,14 @@
 
 .sideBarIcons {
     overflow: scroll !important;
+    align-items: center;
+ 
+    display: flex;
 
+}
+
+.sideBarIcons > p {
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 14px;
 }

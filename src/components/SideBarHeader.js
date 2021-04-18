@@ -6,13 +6,10 @@ import Accordion from 'react-bootstrap/Accordion'
 import SideBarIcons from './SideBarIcons'
 export default function SideBarHeader({Icon,text,top, middle, bottom}) {
 
-    const [open, setOpen] = useState(false);
+    // const [open, setOpen] = useState(false);
     return (
         <div className="sideBarHeader">   
-
-       
-        {/* <Icon className="sideBarHeader__icon"/>
-        <p className="sideBarHeader__text">{text}</p> */}
+   
         <Accordion >
   <Card>
     <Card.Header>
@@ -37,10 +34,10 @@ export default function SideBarHeader({Icon,text,top, middle, bottom}) {
 
       {middle  &&  
      <div className="sideBarHeader_middleContainer">
-     <SideBarIcons className="sideBarHeader_middleContainer_icon" />
-     <SideBarIcons />
-     <SideBarIcons />
-     <SideBarIcons />
+
+     <SideBarIcons  url="https://image.shutterstock.com/image-vector/gif-animation-button-icon-260nw-445831636.jpg" screenName="gifMaster" />
+     <SideBarIcons url="https://seek-team-prod.s3.fr-par.scw.cloud/users/5f5f106c08cba624427673.jpg" screenName="NiftyNFT" />
+     <SideBarIcons url="https://assets.coingecko.com/coins/images/2214/large/token.png?1547036499g" screenName="tokenTod" />
      {/* <div   className="sideBarHeader_buttonContainer">Username</div>
      <div   className="sideBarHeader_buttonContainer">Username</div>
      <div  className="sideBarHeader_buttonContainer">Username</div> */}
