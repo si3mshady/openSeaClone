@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/HeaderOption.css'
+
 export default function HeaderOption({linkName, Avatar}) {
     return (
         
