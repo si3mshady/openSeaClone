@@ -2,3 +2,15 @@
     padding: 12px; 
 }
 
+img {
+     width: 800px;
+     height: 400px; 
+    /* object-fit: contain; */
+     }
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+/* https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width/53252725 */

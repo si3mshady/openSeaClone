@@ -23,7 +23,8 @@
 
 .card {
   border: 0 !important;
-  border-right: 1px solid lightgrey !important;
+  margin: 10px !important;
+  /* border-right: 1px solid lightgrey !important; */
  
 }
 .card-header {
