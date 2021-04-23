@@ -4,13 +4,13 @@ import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import './css/NFT.css'
 import Web3 from 'web3';
-// import web3 and a button to click 
+
 
 export default function NFT({img, metadata, description}) {
     const [account, setAccount] = useState('')
     const [abi, setAbi] = useState('')
     const [web3Instance, setWeb3Instance] = useState()
-    const [smartContract, setSmartContract] = useState()
+  
   
     useEffect(() => {
       const initializeWeb3 = async () => {
@@ -31,30 +31,24 @@ export default function NFT({img, metadata, description}) {
       setAbi(compiled_contract.abi)
     
       return true;
-    },[])
-  
-  const getContractInstance = () => {
-  let contract_address = "0x09aa12e09c6c31113e62fdf3bb940b3e0e5d34e9"
-   let contract_instance =  new web3Instance.eth.Contract(abi,contract_address)
-   setSmartContract(contract_instance)
-  }
+    },[])  
+
   
   const mintToken = () => {  
-    getContractInstance()
+    
     console.log('Clicked Mint Token')
-    // console.log(smartContract)
-    // console.log(smartContract.methods)
+  
   let contract_address = "0x09aa12e09c6c31113e62fdf3bb940b3e0e5d34e9"
    let contract_instance =  new web3Instance.eth.Contract(abi,contract_address)
     contract_instance.methods.mintNFT(account,metadata).send({from: account})
-    // smartContract.methods.mintNFT(account,metadata).send({from: account})
+    
   }
 
     
 
     return (
         <div className="nft card">
-        {/* <img src={img}/> */}
+        
 
         <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={img} />
