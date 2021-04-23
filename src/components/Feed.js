@@ -6,13 +6,13 @@ import data from '../starter_data.js'
 
 export default function Feed() {
    
-{console.log(data[0])}
+
     return (
         <div className='feed'>
             <div className='feed__container'>
-         {data.map((element) => (
+         {data.map((element,index) => (
                     
-                <NFT metadata={element.metadata} img={element.image}  description={element.description}/>
+                <NFT key={index} metadata={element.metadata}  img={element.image}  description={element.description}/>
                 
             ) )}
                
